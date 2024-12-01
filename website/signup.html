@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-title"><a href="index.html">Home</a></div>
+        <div class="nav-links">
+            <a href="signin.html">Sign In</a>
+        </div>
+    </nav>
+
+    <!-- Sign Up Section -->
+    <main>
+        <div id="signup-section" class="auth-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" placeholder="Enter your username" required>
+                
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" placeholder="Enter your password" required>
+                
+                <button type="button" onclick="signUp()">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
